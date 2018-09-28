@@ -16,6 +16,9 @@ Returns the `CFBundleShortVersionString` and the `CFBundleVersion` and `bundleId
 | buildVersion | `CFBundleVersion` | `versionCode` | `42` |
 | bundleIdentifier | `bundleIdentifier` | `applicationId` | `com.foo.bar.MyApp`|
 
+````
+origin link https://github.com/APSL/react-native-version-number (with license https://github.com/APSL/react-native-version-number/blob/master/LICENSE as MIT License)
+````
 
 ## Getting started
 

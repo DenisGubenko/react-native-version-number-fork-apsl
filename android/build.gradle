@@ -3,7 +3,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "28.0.2"
 
     defaultConfig {
         minSdkVersion 16
@@ -19,7 +19,11 @@ android {
     }
 }
 
+repositories {
+  mavenCentral()
+}
+
 dependencies {
-    compile 'com.facebook.react:react-native:+'
+    implementation 'com.facebook.react:react-native:+'
 }
   
